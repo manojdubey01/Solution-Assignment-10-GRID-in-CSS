@@ -1,0 +1,20 @@
+body{
+    margin: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+}
+.container > div{
+    background-color: bisque;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Now let us apply justify-items to grid container */
+
+.container{
+    justify-items:center;
+}
